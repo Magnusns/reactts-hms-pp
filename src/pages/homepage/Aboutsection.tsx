@@ -5,7 +5,7 @@ function Aboutsection() {
     <div className="about">
       <div className="about__container">
         <h2>About</h2>
-        <p>This is the about section ofnnfnfn our application.</p>
+        <p>This is the about section ofnnfnfn our application. Hello world</p>
       </div>
     </div>
   );
