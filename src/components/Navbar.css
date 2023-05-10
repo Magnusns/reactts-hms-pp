@@ -1,0 +1,48 @@
+nav {
+  background-color: var(--dark);
+  overflow: hidden;
+  height: 80px; /* Set the height to make the navigation bar bigger */
+  display: flex; /* Use flexbox to center the list items */
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox to center the list items */
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; /* Use the height of the navigation bar */
+  background-color: red;
+  margin: 0 auto;
+  width: var(--inner-width);
+}
+
+nav li {
+  margin: 0 20px; /* Add some margin between the list items */
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: var(--dark-hover);
+}
+
+.links {
+  display: flex;
+}
+
+.navbar__button {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.icon {
+}
